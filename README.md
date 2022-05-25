@@ -62,10 +62,12 @@ compare multiple machine learning methods on a regression task using learning cu
 
 **Graphs:**
 
-**Decision Tree Regressor:
+**Decision Tree Regressor:**
+
  <img width="222" alt="image" src="https://user-images.githubusercontent.com/96926526/170374753-1a253492-041e-45b4-998c-a72baf3d4487.png">
 
 **K nearest Neighbors:**
+
  <img width="222" alt="image" src="https://user-images.githubusercontent.com/96926526/170374780-14460ef8-bece-4ee0-817a-bede65a95cf1.png">
 
 **Linear regression:**
