@@ -50,14 +50,14 @@ Decision Tree Regressor:
 
 **Graphs:**
 **Decision Tree Regressor:
-    <img width="226" alt="image" src="https://user-images.githubusercontent.com/96926526/170374753-1a253492-041e-45b4-998c-a72baf3d4487.png">
+ <img width="226" alt="image" src="https://user-images.githubusercontent.com/96926526/170374753-1a253492-041e-45b4-998c-a72baf3d4487.png">
 
 **K nearest Neighbors:**
-    <img width="226" alt="image" src="https://user-images.githubusercontent.com/96926526/170374780-14460ef8-bece-4ee0-817a-bede65a95cf1.png">
+ <img width="226" alt="image" src="https://user-images.githubusercontent.com/96926526/170374780-14460ef8-bece-4ee0-817a-bede65a95cf1.png">
 
 **Linear regression:**
  
-   <img width="222" alt="image" src="https://user-images.githubusercontent.com/96926526/170374829-a58a11a5-94c9-48a8-9e4d-f959e063345e.png">
+  <img width="222" alt="image" src="https://user-images.githubusercontent.com/96926526/170374829-a58a11a5-94c9-48a8-9e4d-f959e063345e.png">
 
 **Support Vector Machine:**
      
@@ -81,13 +81,14 @@ Here while comparing all the learning curves we can see a very close relationshi
 
 Comparing bagged and decision tree regressors we can observe a banana shape in their learning curves from 15000 to 32000.
       
-      <img width="243" alt="image" src="https://user-images.githubusercontent.com/96926526/170374998-51b57248-da51-467d-ad0d-4ef529e7282b.png">
+<img width="243" alt="image" src="https://user-images.githubusercontent.com/96926526/170375272-5b73f3a5-1136-485d-a774-f512df60dd0d.png">
 
 
 **Tables:**
 **Comparing all models with the best model**
 
-![image](https://user-images.githubusercontent.com/96926526/170375029-54c6ed25-5ae5-4f33-9a1a-5977e946f5f1.png)
+![image](https://user-images.githubusercontent.com/96926526/170375228-c94f451c-f746-44c5-aa02-487dd0fae3b5.png)
+
 
 **Comparing computational training and test times of all models**
 
