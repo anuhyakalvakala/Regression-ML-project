@@ -20,40 +20,53 @@ compare multiple machine learning methods on a regression task using learning cu
 •	The target variable Y using the rules: IF (X2 > 2) THEN Y = 35 - 0.5 X4 ELSE IF (-2 <= X4 <= 2) THEN Y = 10 - 2 X1 ELSE IF (X7 = yes) THEN Y = 3 -X1/X4 ELSE IF (X8 = normal) THEN Y = X6 + X1 ELSE Y = X1/2
 •	The data had the numeric and nominal values at the x3, x6, x7 which are converted into numeric values using the one hot encoder value.
 •	The converted values are fit and the type of the data we observe after fitting is NumPy which is converted to data frame data which is easy to calculate further.
-Methods:
+**Methods:**
+
 •	We are working with 6 methods as below 
-Decision Tree Regressor:
+
+**Decision Tree Regressor:**
+
 •		In this we used sklearn and imported tree, model_selection and DecisionTreeRegressor.
 •		In this we have tunned our parameters using min leaf sample 2,4,6,8,10 and tuned the tree using the scoring as "neg_root_mean_squared_error" and cross validation value of 10.
 •		Using the tunned tree, we have made a learning curve using the train sizes as 0.2,0.4,0.6,0.8,1 with cross validation 10.
-•	K Nearest Neighbors Regressor:
+
+**K Nearest Neighbors Regressor:**
+
 •	In this we used sklearn and imported KNeighborsRegressor
 •	In this we have tunned our parameters using n_neighbors=2 and tuned the tree using the scoring as "neg_root_mean_squared_error" and cross validation value of 10.
 •	Using the tunned tree, we have made a learning curve using the train sizes as 0.2,0.4,0.6,0.8,1 with cross validation 10
 
-•	Linear Regression:
+**Linear Regression:**
+
 •		In this we used sklearn and imported Linear Regression
 •		In this we have tuned the tree using the scoring as "neg_root_mean_squared_error" and cross validation value of 10.
 •		Using the train sizes as 0.2,0.4,0.6,0.8,1 with cross validation 10 learning curve is calculated.
-•	Support Vector Machine:
+
+**Support Vector Machine:**
+
 •		In this we used sklearn.svm and imported SVR
 •		In this we have tuned the tree using the scoring as "neg_root_mean_squared_error" and cross validation value of 10.
 •	Using the train sizes as 0.2,0.4,0.6,0.8,1 with cross validation 10 learning curve is calculated.
-•	Bagging Regressor:
+
+**Bagging Regressor:**
+
 •		In this we used sklearn and imported BaggingRegressor
 •	In this we have tuned the tree using the scoring as "neg_root_mean_squared_error" and cross validation value of 10.
 •	Using the train sizes as 0.2,0.4,0.6,0.8,1 with cross validation 10 learning curve is calculated.
-•	Dummy Regressor:
+
+**Dummy Regressor:**
+
 •		In this we used sklearn and imported DummyRegressor
 •		In this we have tuned the tree using the scoring as "neg_root_mean_squared_error" and cross validation value of 10.
 •		Using the train sizes as 0.2,0.4,0.6,0.8,1 with cross validation 10 learning curve is calculated.
 
 **Graphs:**
+
 **Decision Tree Regressor:
- <img width="226" alt="image" src="https://user-images.githubusercontent.com/96926526/170374753-1a253492-041e-45b4-998c-a72baf3d4487.png">
+ <img width="222" alt="image" src="https://user-images.githubusercontent.com/96926526/170374753-1a253492-041e-45b4-998c-a72baf3d4487.png">
 
 **K nearest Neighbors:**
- <img width="226" alt="image" src="https://user-images.githubusercontent.com/96926526/170374780-14460ef8-bece-4ee0-817a-bede65a95cf1.png">
+ <img width="222" alt="image" src="https://user-images.githubusercontent.com/96926526/170374780-14460ef8-bece-4ee0-817a-bede65a95cf1.png">
 
 **Linear regression:**
  
